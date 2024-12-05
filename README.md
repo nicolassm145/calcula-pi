@@ -18,7 +18,7 @@ O código é dividido em uma função principal e uma função `calculaPI`:
 - **calculaPI**: Esta função realiza o cálculo de Monte Carlo. Para cada ponto gerado aleatoriamente, verifica-se se ele cai dentro do círculo de raio 1.
 - **main**: A função principal solicita ao usuário o número de pontos a serem gerados, chama a função `calculaPI`, e exibe a estimativa de PI.
 
-## Como Jogar (Usar)
+## Como Usar 
 
 1. **Clone o repositório** para sua máquina local:
    ```bash
@@ -36,15 +36,13 @@ O código é dividido em uma função principal e uma função `calculaPI`:
    ./main
    ```
 
-4. **Instruções do Jogo**:
+4. **Instruções**:
    - O programa solicita ao usuário o número de pontos a serem utilizados na estimativa.
    - A partir do valor informado, o programa realiza o cálculo de Monte Carlo e retorna a estimativa de PI.
-   - O usuário deve fornecer um número dentro do limite de 1.000.000.000 de pontos. Caso o valor inserido seja maior, o programa exibirá uma mensagem de erro.
-
+   - 
 ## Funcionalidades
 
 - **Cálculo de PI**: Através do método de Monte Carlo, o programa gera pontos aleatórios para estimar o valor de PI.
-- **Limite de Pontos**: O programa permite a inserção de até 1.000.000.000 pontos, com uma verificação para garantir que o valor não ultrapasse o limite.
 - **Precisão**: Quanto maior o número de pontos, mais precisa é a estimativa do valor de PI.
 
 ## Considerações Finais
