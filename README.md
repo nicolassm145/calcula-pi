@@ -39,7 +39,7 @@ O código é dividido em uma função principal e uma função `calculaPI`:
 4. **Instruções**:
    - O programa solicita ao usuário o número de pontos a serem utilizados na estimativa.
    - A partir do valor informado, o programa realiza o cálculo de Monte Carlo e retorna a estimativa de PI.
-   - 
+   
 ## Funcionalidades
 
 - **Cálculo de PI**: Através do método de Monte Carlo, o programa gera pontos aleatórios para estimar o valor de PI.
